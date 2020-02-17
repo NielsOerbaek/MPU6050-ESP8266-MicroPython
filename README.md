@@ -3,7 +3,8 @@ Simple library for MPU6050 on LoPy4 with micropython
 
 Slightly adapted from [adamjezek98](https://github.com/sparkfun/MPU-6050_Breakout)
 
-To be able to import the library place it in a dir named `lib/` on the LoPy4
+To be able to import the library place it in a dir named `lib/` on the LoPy4<Br/>
+__Note:__ You need to upload the library file to the LoPy using "upload" in PyMakr before you can import in in scripts.
 
 SCL connected to pin P9, SDA to pin P10<br/>
 example usage:
