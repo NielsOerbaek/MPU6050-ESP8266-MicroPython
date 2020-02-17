@@ -15,8 +15,8 @@ accelerometer = mpu6050.accel(i2c)
 while True:
     vals = accelerometer.get_values()
     print(vals)
-
----
+```
+```
 Out: {'GyZ': -41, 'GyY': -113, 'GyX': 644, 'Tmp': 25.33, 'AcZ': -2588, 'AcY': 8, 'AcX': 17612}
 ```
 Accelerometer/Gyroscope values are in int16 range (-32768 to 32767)<br/>
