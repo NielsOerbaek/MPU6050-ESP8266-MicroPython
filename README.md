@@ -6,7 +6,7 @@ Slightly adapted from [adamjezek98](https://github.com/sparkfun/MPU-6050_Breakou
 To be able to import the library place it in a dir named `lib/` on the LoPy4<Br/>
 __Note:__ You need to upload the library file to the LoPy using "upload" in PyMakr before you can import in in scripts.
 
-SCL connected to pin P9, SDA to pin P10<br/>
+SDA connected to pin `P9`, SCL to pin `P10` (__note:__ This was wrong in an earlier version)<br/>
 example usage:
 
 ```python
